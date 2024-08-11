@@ -1,0 +1,173 @@
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+.section-4 img,
+.section-5 img,
+.section-6 img,
+.section-1 img {
+    width: 100%;
+    height: auto;
+    
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.section-4 img:hover,
+.section-5 img:hover,
+.section-6 img:hover,
+.section-1 img:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+span{
+  color: #00bfff;
+}
+
+.section-7 img{
+  margin-left: 34%;
+}
+
+.section-4 h3{
+  margin-left: 12%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-1 {
+  background-color: #2980b9;
+  
+  padding: 60px 0;
+  text-align: center;
+}
+
+.section-1 h1 {
+  
+  font-size: 3.5rem;
+}
+
+.section-2, .section-3, .section-4, .section-5, .section-6, .section-7 {
+  background-color: #fff;
+  padding: 60px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.section-2 h2, .section-3 h2, .section-4 h2, .section-5 h2, .section-6 h2, .section-7 h2 {
+  color: #2c3e50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 2.5rem;
+  }
+  
+  h2 {
+      font-size: 2rem;
+  }
+  
+  h3 {
+      font-size: 1.5rem;
+  }
+  
+  .section-1 {
+      padding: 40px 20px;
+  }
+  
+  .section-2, .section-3, .section-4, .section-5, .section-6, .section-7 {
+      padding: 40px 20px;
+  }
+
+  .feature-icon img {
+      width: 100px;
+      height: 100px;
+  }
+  .section-7 img {
+    width: 100%;
+    height: auto;
+    margin-left: 0; /* Center the image by removing left margin */
+    display: block; /* Ensure the image is displayed as a block element */
+  }
+  .section-4 h3{
+    margin-left: 3%;
+  }
+}
+
+
+
+
+.section-7 img,
+.section-2 img
+{
+  border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
